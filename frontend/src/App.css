@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+body {
+  margin: 0;
+}
+.header-main {
+  background: url(./images/header-background-giftcards.jpg) no-repeat;
+  background-position: center;
+  width: 130%;
+  margin-left: -13%;
+  height: 500px;
+  margin-top: -2%;
+  background-size: cover;
+}
+
+.login-bg {
+  background: url(./images/login.jpg) no-repeat;
+  background-position: center;
+  padding: 40px 0;
+  width: 130%;
+  margin-top: -2%;
+
+  margin-left: -13%;
+  height: 500px;
+  background-size: cover;
+  min-height: 100vh;
+}
+#loginForm {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+}
+#loginForm input {
+  width: 100%;
+  border: 0.1rem solid #999;
+  border-radius: 0;
+  background-color: #fff;
+  padding-left: 2.5rem;
+  font-size: 14px;
+  line-height: 1.2;
+  margin-top: 0;
+}
+#loginForm .input-group-addon {
+  position: absolute;
+  z-index: 9;
+  top: 8px;
+  left: 10px;
+  color: #ccc;
+  border-right: 1px solid;
+  height: 24px;
+  padding-right: 5px;
+  /* line-height: 74px; */
+  padding-top: 5px;
+  background: #fff;
+}
+.playbutton img {
+  width: 130px;
+}
+.as-seen img {
+  max-width: 170px;
+  width: auto;
+}
+.about h2 {
+  max-width: 800;
+  margin: auto;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 46px;
+  opacity: 0.9;
+}
+.about-left h3,
+.about-right h3 {
+  font-size: 40px;
+  font-weight: 200;
+  color: #333;
+}
+.about-left p,
+.about-right p {
+  max-width: 320px; /* font-size: 16px; */
+}
+#flipCounterWrapper {
+  font-size: 4em;
+  line-height: 1.462;
+  font-weight: 700;
+  color: #6bb0c6;
+  text-align: center; /* line-height: 30px; */
+}
+#flipCounter {
+  display: inline-block;
+  position: relative;
+  background-color: #2e8da9;
+  border-radius: 0.123em;
+  color: #fff;
+  line-height: 1;
+  padding: 0.277em;
+  vertical-align: bottom;
+  margin-left: 0.108em;
+}
+.flipCounterFrame {
+  position: relative;
+  display: inline-block;
+  height: 1.08em;
+  width: 0.8em;
+  border-radius: 0.123em;
+  margin: 0 0.0385em;
+  background-color: #89cddc;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.flipCounterFrame:before {
+  content: "";
+  position: absolute;
+  top: 0.0154em;
+  left: 0;
+  width: 100%;
+  height: 0.54em;
+  background-color: #6bb0c6;
+  z-index: 0;
+  border-top-left-radius: 0.1385em;
+  border-top-right-radius: 0.1385em;
+}
+.flipCounterFrame:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.54em;
+  background-color: #5fa3b8;
+  z-index: 0;
+}
+.flipCounterDigit {
+  position: relative;
+  z-index: 1;
+  /* line-height: 1; */
+  height: auto;
+  /* display: flex; */
+  line-height: 77px;
+}
+.flipCounterDigit:before {
+  content: "";
+  position: absolute;
+  top: -0.17em;
+  bottom: 0;
+  left: 100%;
+  height: 0.0155em;
+  width: 300%;
+  margin: auto;
+  background-color: #5fa3b8;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.flipCounterDigit::after {
+  content: "";
+  position: absolute;
+  top: -12px;
+  bottom: 0;
+  left: -100%;
+  height: 0.0155em;
+  width: 300%;
+  margin: auto;
+  background-color: #85cde5;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.testmoinl {
+  font-size: 20px;
+  font-weight: 400;
+}
+.gift-cards-icon {
+  font-size: 45px;
+  padding-bottom: 15px;
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+.gift-cards-text {
+  max-width: 700px;
+  margin: auto;
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.gift-cards-icon .far.fa-credit-card {
+  position: relative;
+  z-index: 1;
+  background: #f9f9f9;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+footer.secation-bg a {
+  width: 100%;
+  display: table;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+@media (max-width: 47.9375em) {
+  #flipCounterWrapper {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 23.375em) {
+  #flipCounterWrapper {
+    font-size: 2.7em !important;
+  }
+}
+.secation-bg {
+  padding: 80px 0;
+  background: #f9f9f9;
+  border-bottom: 2px solid #f1f1f1;
+  border-top: 2px solid #f1f1f1;
+}
+
+.video-card .card-text {
+  /* font-size: 14px; */
+  letter-spacing: normal;
+  font-size: 13px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+.card-container.card {
+  max-width: 350px !important;
+  padding: 40px 40px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
