@@ -5,24 +5,16 @@ const dbConfig = ("./app/config/db.config");
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:8081"
-};
-
 app.use(cors(corsOptions));
 
-// parse requests of content-type - application/json
 app.use(bodyParser.json());
 
-// parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const db = require("./app/models");
 const Role = db.role;
 db.mongoose
-  .connect(`mongodb+srv://user:user@cluster0.pfid5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-
-  `, {
+  .connect(`MONGODB_LINK`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
