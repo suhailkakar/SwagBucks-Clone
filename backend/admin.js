@@ -5,9 +5,7 @@ const cors = require("cors");
 
 // create express app
 const app = express();
-var corsOptions = {
-    origin: "http://localhost:8081"
-  };
+
   app.use(cors(corsOptions));
   
 // parse requests of content-type - application/x-www-form-urlencoded
@@ -18,7 +16,7 @@ app.use(bodyParser.json())
 
 mongoose.Promise = global.Promise;
 // Connecting to the database
-mongoose.connect('mongodb+srv://user:user@cluster0.pfid5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect('YOUR_MONGODB_LINK', {
     useNewUrlParser: true
 }).then(() => {
     console.log("Successfully connected to the database");    
