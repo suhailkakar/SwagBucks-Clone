@@ -109,3 +109,17 @@
 │       └── setupTests.js
 └── README.md
 ```
+
+
+
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/suhailkakar/SwagBucks-Clone
+   ```
+2. Install NPM packages
+
+* Install node modules in both frontend and backend folder
+* Run `npm start` in frontend and `node server.js` in backend
