@@ -139,3 +139,6 @@ Contributions are what make the open source community such an amazing place to b
 
 SwagBucks Clone is open source software licensed under the MIT License
 
+### Contributor
+
+* [Suhail Kakar](https://suhailkakar.com)
