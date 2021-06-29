@@ -15,3 +15,7 @@
 * [Express JS](https://expressjs.com/)
 * [MongoDB](https://www.mongodb.com/)
 * [Bootstrap](https://react-bootstrap.github.io/)
+
+### Deployed In
+* [Netlify](https://netlify.com/)
+* [Heroku](https://www.heroku.com/)
