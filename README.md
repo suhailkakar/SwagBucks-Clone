@@ -123,3 +123,19 @@
 
 * Install node modules in both frontend and backend folder
 * Run `npm start` in frontend and `node server.js` in backend
+
+
+### Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+3. Commit your Changes (`git commit -m 'Some Good Features'`)
+4. Push to the Code (`git push -u origin master `)
+5. Open a Pull Request
+
+
+## License
+
+SwagBucks Clone is open source software licensed under the MIT License
+
